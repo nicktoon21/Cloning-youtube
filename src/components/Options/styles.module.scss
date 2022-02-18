@@ -1,0 +1,29 @@
+.container {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 0 40px;
+
+    .icon {
+        width: 45px;
+        height: 45px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            width: 30px;
+            height: 30px;
+
+            margin-right: 24px;
+        }
+
+        p {
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 14px;
+        }
+    }
+}
